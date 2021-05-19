@@ -35,6 +35,7 @@ jobs:
         run: sudo apt update && sudo apt install yarn
       - name: Install Packages
         run: yarn install
+        
       - name: Build React App
         run: yarn build
         
@@ -42,4 +43,4 @@ jobs:
         run: npm install -g surge
         
       - name: Deploying surge
-        run: surge ./build http://tiny-anim-app.surge.sh/ --token ${{secrets.SURGE_TOKEN_ANIMATE_P5}}
+        run: surge ./build http://animate-react-websample.surge.sh/ --token ${{secrets.SURGE_TOKEN_ANIMATE_P5}}
