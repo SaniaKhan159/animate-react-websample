@@ -88,7 +88,7 @@ export const Contact = () => {
                 </textarea>
               </div>
 
-              <button class="btn btn-outline-primary" type="submit">Submit</button>
+              <button class="btn btn-outline-primary" type="submit">Submit form</button>
             </form>
           </div>
         </div>
